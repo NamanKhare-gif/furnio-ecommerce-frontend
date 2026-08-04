@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero-section{
+    background-image: url(../assests/shop\ hero\ img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 316px;
+    width: 100%;
+}
+
+.filter{
+    background-color: #F9F1E7;
+    height: 100px;
+    width: 1264px;
+    margin-top: -33px;
+}
+
+.filter-content{
+    padding-top: 22px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.first{
+    width: 55px;
+    height: 55px;
+    text-align: center  ;
+}
+
+.second{
+    width: 188px;
+    height: 55px;
+    text-align: center  ;
+}
+
+.select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: white;
+    color: #9F9F9F;
+    outline: none;
+    border: none;
+}
+
+.item-cont{
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 31px;
+    margin-top: 60px;
+    gap: 32px;
+}
+
+.btn-pri{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border: none;
+    background-color: #F9F1E7;
+    border-radius: 10px;
+}
+
+.btn-sec{
+    height: 60px;
+    width: 98px;
+    text-align: center;
+    border: none;
+    background-color: #F9F1E7;
+    border-radius: 10px;
+}
+
+.btn-pri:hover{
+    color: white;
+    background-color: #B88E2F;
+}
+
+.btn-sec:hover{
+    color: white;
+    background-color: #B88E2F;
+}
+
+.slect{
+    color: white;
+    background-color: #B88E2F;
+    border-radius: 10px;
+}
+
+.quality{
+    margin-top: 100px;
+    margin-bottom: -70px;
+    width: 100%;
+    height: 240px;
+    background: url(../assests/Frame.png);
+    background-size: contain;
+}

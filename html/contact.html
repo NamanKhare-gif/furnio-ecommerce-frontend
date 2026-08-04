@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Furnio | Modern Furniture for Every Home</title>
+    <link rel="icon" href="../assests/Logo.png">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/blog.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo"><img src="../assests/FullLogo.png" alt="logo"></div>
+            <div class="nav">
+                <ul class="li">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                </ul>
+            </div>
+            <div class="sech">
+                <button><img src="../assests/Profile.png" alt="profile"></button>
+                <button><img src="../assests/Search.png" alt="search"></button>
+                <button><img src="../assests/fav.png" alt="fav"></button>
+                <button><img src="../assests/cart.png" alt="cart" class="cart-btn"></button>
+            </div>
+        </div>
+    </header>
+
+    
+    <div class="cart-overlay"></div>
+
+    <aside class="cart-drawer">
+
+        <div class="cart-header">
+
+            <h2>Shopping Cart</h2>
+
+            <button class="close-cart">
+                <img src="../assests/close.png" alt="Close">
+            </button>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="cart-content">
+
+            <div class="cart-item">
+
+                <div class="cart-image">
+
+                    <img src="../assests/product6.png" alt="Asgaard Sofa">
+
+                </div>
+
+                <div class="cart-details">
+
+                    <h3>Asgaard Sofa</h3>
+
+                    <p>
+
+                        <span class="qty">1</span>
+
+                        <span class="cross">×</span>
+
+                        <span class="price">Rs. 250,000.00</span>
+
+                    </p>
+
+                </div>
+
+                <button class="delete-item">
+
+                    <img src="../assests/delete.png" alt="Delete">
+
+                </button>
+
+            </div>
+
+            <div class="cart-item">
+
+                <div class="cart-image">
+
+                    <img src="../assests/product7.png" alt="Casaliving Wood">
+
+                </div>
+
+                <div class="cart-details">
+
+                    <h3>Casaliving Wood</h3>
+
+                    <p>
+
+                        <span class="qty">1</span>
+
+                        <span class="cross">×</span>
+
+                        <span class="price">Rs. 270,000.00</span>
+
+                    </p>
+
+                </div>
+
+                <button class="delete-item">
+
+                    <img src="../assests/delete.png" alt="Delete">
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="cart-footer">
+
+            <div class="subtotal">
+
+                <span>Subtotal</span>
+
+                <span class="subtotal-price">
+                    Rs. 520,000.00
+                </span>
+
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="cart-buttons">
+
+                <button class="cart-btns">Cart</button>
+
+                <button>Checkout</button>
+
+                <button>Comparison</button>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+    <main>
+        <section class="heroimges"></section>
+
+        <section class="contact">
+
+            <div class="contact-heading">
+                <h2>Get In Touch With Us</h2>
+
+                <p>
+                    For More Information About Our Product & Services. Please Feel Free To Drop Us
+                    <br>
+                    An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!
+                </p>
+            </div>
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+
+                    <div class="info-box">
+
+                        <div class="icon">
+                            <img src="../assests/address.png">
+                        </div>
+
+                        <div class="info-text">
+                            <h3>Address</h3>
+
+                            <p>
+                                236 5th SE Avenue, New York NY10000,
+                                United States
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="info-box">
+
+                        <div class="icon">
+                            <img src="../assests/phone.png" alt="icon">
+                        </div>
+
+                        <div class="info-text">
+                            <h3>Phone</h3>
+
+                            <p>
+                                Mobile: +(84) 546-6789
+                                <br>
+                                Hotline: +(84) 456-6789
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="info-box">
+
+                        <div class="icon">
+                            <img src="../assests/time.png" alt="icon">
+                        </div>
+
+                        <div class="info-text">
+                            <h3>Working Time</h3>
+
+                            <p>
+                                Monday-Friday: 9:00 - 22:00
+                                <br>
+                                Saturday-Sunday: 9:00 - 21:00
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <form class="contact-form">
+
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" placeholder="Abc">
+
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" placeholder="Abc@def.com">
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="This is an optional">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Hi! I'd like to ask about"></textarea>
+
+                    <button type="submit">Submit</button>
+
+                </form>
+
+            </div>
+
+        </section>
+        <section class="quality1 qual"><hr></section
+    </main>
+
+    <hr>
+    <footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-column company">
+            <img src="../assests/FullLogo.png" alt="logo">
+            <Br>
+            <Br>
+
+            <p>
+                400 University Drive Suite 200 Coral Gables,<br>
+                FL 33134 USA
+            </p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Links</h4>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Help</h4>
+
+            <ul>
+                <li><a href="#">Payment Options</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Privacy Policies</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column newsletter">
+
+            <h4>Newsletter</h4>
+
+            <form>
+
+                <input
+                    type="email"
+                    placeholder="Enter Your Email Address"
+                >
+
+                <button type="submit">
+                    SUBSCRIBE
+                </button>
+
+            </form>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            2023 Funiro. All rights reserved
+        </p>
+
+    </footer>
+    
+</body>
+<script src="../js/home.js"></script>
+</html>

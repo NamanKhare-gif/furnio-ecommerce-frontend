@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.blogs{
+    padding: 60px;
+}
+
+.blog1{
+    height: 794px;
+    width: 700px;
+}
+
+.heroimg{
+    background: url(../assests/Blog\ img.png);
+    height: 300px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.likes-fav{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: #9F9F9F;
+    gap: 30px;
+}
+
+.likes-fav p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+}
+
+.cont-blog article{
+    margin-top: 12px;
+    font-size: 13px;
+    color: #9F9F9F;
+    line-height: 23px;
+}
+
+.cont-blog h2{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.read-more{
+    margin-top: 30px;
+    background: transparent;
+    border: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+
+    color: #000;
+
+    cursor: pointer;
+
+    padding: 0;
+
+    position: relative;
+
+}
+
+.read-more::after{
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -8px;
+
+    width: 100%;
+    height: 1px;
+
+    background: #000;
+
+}
+
+.default{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+
+.quality1{
+    margin-bottom: -70px;
+    width: 100%;
+    height: 240px;
+    background: url(../assests/Frame.png);
+    background-size: contain;
+}
+
+.separate{
+    display: flex;
+}
+
+#inputs{
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    height: 58px;
+    width: 300px;
+}
+
+input:focus{
+    border: 1px solid #9F9F9F;
+}
+
+.form{
+    margin-top: 57px;
+    margin-left: 50px;
+}
+
+.srch{
+    margin-left: -40px;
+    margin-bottom: -5px;
+}
+
+.he{
+    margin-top: 18px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tables{
+    margin-top: 40px;
+    width: 290px;
+    justify-content: space-between;
+    display: flex;  
+    color: #9F9F9F;
+}
+
+.uit{
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.post1{
+    margin-top: 30px;
+    width: 211px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.inner-text span{
+    font-size: 12px;
+    color: #9F9F9F;
+}
+
+.inner-text p{
+    font-size: 14px;
+    color: black;
+}
