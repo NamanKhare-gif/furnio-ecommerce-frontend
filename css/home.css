@@ -296,27 +296,61 @@ body.no-scroll{
 /* hero */
 
 .hero-img{
-    background: url(../assests/Hero\ img.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     height: 717px;
     width: 100%;
-    padding-top: 135px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 0;
+}
 
+.hero-slider {
+    width: 100%;
+    height: 717px;
+
+    display: flex;
+
+    transition: transform 0.8s ease-in-out;
+}
+
+
+/* Each image takes the complete hero width */
+
+.hero-slider img {
+    width: 100%;
+    height: 717px;
+
+    flex: 0 0 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    cursor: pointer;
 }
 
 .hero-cont-box {
+    position: absolute;
+
+    top: 135px;
+    left: 642px;
+
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
     border-radius: 10px;
+
     height: 340px;
     width: 580px;
+
     background: #FFF3E3;
-    margin-left: 642px;
+
     padding-top: 60px;
+
+    z-index: 5;
 }
 
 .hero-cont {
     margin-left: 42px;
+
     width: 463px;
     height: 301px;
     
@@ -330,7 +364,7 @@ body.no-scroll{
         margin-top: 5px;
         font-size: 52px;
         line-height: 1.2;
-        font-weight: 700px;
+        font-weight: 700;
         color: #B88E2F;
     }
 
@@ -350,6 +384,56 @@ body.no-scroll{
     }
 }
 
+.hero-btn {
+    position: absolute;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    z-index: 10;
+
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.85);
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Previous button */
+
+.hero-prev {
+    left: 25px;
+}
+
+
+/* Next button */
+
+.hero-next {
+    right: 25px;
+}
+
+
+/* Button hover */
+
+.hero-btn:hover {
+    background: #ffffff;
+
+    transform: translateY(-50%) scale(1.08);
+}
 
 .Range{
     margin-top: -160px;
