@@ -12,52 +12,28 @@
     gap: 100px;
 }
 
-/* ==========================
-        NAV ACTIVE BORDER
-========================== */
-
 .nav ul li a{
-
     position: relative;
-
 }
 
 .nav ul li a::after{
-
     content: "";
-
     position: absolute;
-
     left: 0;
-
     bottom: -8px;
-
     width: 0;
-
     height: 3px;
-
     background: #B88E2F;
-
     border-radius: 50px;
-
     transition: width .3s ease;
-
 }
-
-/* Hover only on inactive links */
 
 .nav ul li a:not(.active):hover::after{
-
     width: 100%;
-
 }
 
-/* Current page */
-
 .nav ul li a.active::after{
-
     width: 100%;
-
 }
 
 .cart-overlay{
@@ -456,7 +432,7 @@ body.no-scroll{
 }
 
 .imges{
-    margin-top: 62px;
+    margin-top: 155px;
     display: flex;
     gap: 13px;
 }
@@ -470,7 +446,7 @@ body.no-scroll{
 
 .product{
     width: 1124px;
-    margin-top: -10px;
+    margin-top: 120px;
     margin-left: 70px;
 }
 
@@ -615,7 +591,7 @@ body.no-scroll{
 }
 
 .shops {
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -631,7 +607,7 @@ body.no-scroll{
 
 .item{
     height: 600px;
-    margin-top: 395px;
+    margin-top: 450px;
     background: url(../assests/item1.png);
     background-size: contain;
     padding-left: 55px;
