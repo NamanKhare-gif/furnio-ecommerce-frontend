@@ -306,7 +306,7 @@ If you find a bug or have an idea for improvement:
 
 ### Naman Khare
 
-the design of the website is taking from the figma free commuinty design. [It is totally use for the leaning purpose.]
+**the design of the website is taking from the figma free commuinty design. [It is totally use for the leaning purpose.]
 ---
 
 ## ⭐ Support
