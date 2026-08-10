@@ -59,8 +59,6 @@ Through this project, I focused on understanding:
 * Hover underline animation
 * Smooth navigation animations
 
-## ✨ Features
-
 ### 🏆 Benefits Slider
 
 - Displays **4 benefits at a time** on desktop.
@@ -81,7 +79,7 @@ Through this project, I focused on understanding:
 - Smooth CSS transition is used for the sliding animation.
 - Responsive layout for different screen sizes.
 
-* ## 🚀 Interactive Features
+## 🚀 Interactive Features
 
 - 🛒 Cart drawer with open/close functionality
 - 🖼️ Automatic hero image slider
