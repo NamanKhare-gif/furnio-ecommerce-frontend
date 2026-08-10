@@ -59,6 +59,39 @@ Through this project, I focused on understanding:
 * Hover underline animation
 * Smooth navigation animations
 
+## ✨ Features
+
+### 🏆 Benefits Slider
+
+- Displays **4 benefits at a time** on desktop.
+- Includes multiple furniture-store benefits such as:
+  - High Quality
+  - Warranty Protection
+  - Free Shipping
+  - 24 / 7 Support
+  - Expert Craftsmanship
+  - Eco Friendly
+  - Premium Furniture
+  - Secure Payment
+  - Easy Returns
+- Automatically slides to the next set of benefits.
+- Provides **Previous** and **Next** buttons for manual navigation.
+- Auto-sliding stops when the user interacts with the slider.
+- After reaching the last item, the slider automatically starts again from the first item.
+- Smooth CSS transition is used for the sliding animation.
+- Responsive layout for different screen sizes.
+
+* ## 🚀 Interactive Features
+
+- 🛒 Cart drawer with open/close functionality
+- 🖼️ Automatic hero image slider
+- 🏆 Automatic benefits/information slider
+- ⏮️ Previous and Next slider controls
+- ⏸️ Auto-slide stops when the user interacts
+- 🔄 Sliders automatically restart from the beginning
+- 📱 Responsive design for desktop, tablet, and mobile
+- 🔗 Active navigation link based on the current page
+
 ---
 
 ## 🛠️ Technologies Used
@@ -199,20 +232,6 @@ The design focuses on:
 * Smooth interactions
 * Clear visual hierarchy
 
----
-
-## 📱 Responsive Design
-
-Responsive CSS and media queries are used to adapt the website to different screen sizes.
-
-The layout adjusts according to the viewport so that the website remains usable on:
-
-* Desktop
-* Laptop
-* Tablet
-* Mobile
-
----
 
 ## 🚀 Getting Started
 
