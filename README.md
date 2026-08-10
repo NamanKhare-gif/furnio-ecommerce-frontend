@@ -24,71 +24,71 @@ Through this project, I focused on understanding:
 
 ## ✨ Features
 
-### 🏠 Home Page
-
-* Modern hero section
-* Automatic image slider
-* Previous and next slider controls
-* Interactive navigation
-* Featured furniture sections
-
-### 🛍️ Shop Page
-
-* Furniture product listings
-* Product cards
-* Interactive UI elements
-
-### 🛒 Cart
-
-* Cart drawer
-* Cart overlay
-* Delete cart items
-* Open and close cart drawer
-* Prevent background scrolling when cart drawer is open
-
-### 💳 Checkout
-
-* Dedicated checkout page
-* Structured checkout interface
-
-### 🧭 Navigation
-
-* Multi-page navigation
-* Active page detection using JavaScript
-* Permanent underline for the current page
-* Hover underline animation
-* Smooth navigation animations
-
-### 🏆 Benefits Slider
-
-- Displays **4 benefits at a time** on desktop.
-- Includes multiple furniture-store benefits such as:
-  - High Quality
-  - Warranty Protection
-  - Free Shipping
-  - 24 / 7 Support
-  - Expert Craftsmanship
-  - Eco Friendly
-  - Premium Furniture
-  - Secure Payment
-  - Easy Returns
-- Automatically slides to the next set of benefits.
-- Provides **Previous** and **Next** buttons for manual navigation.
-- Auto-sliding stops when the user interacts with the slider.
-- After reaching the last item, the slider automatically starts again from the first item.
-- Smooth CSS transition is used for the sliding animation.
-- Responsive layout for different screen sizes.
-
-## 🚀 Interactive Features
-
-- 🛒 Cart drawer with open/close functionality
-- 🖼️ Automatic hero image slider
-- 🏆 Automatic benefits/information slider
-- ⏮️ Previous and Next slider controls
-- ⏸️ Auto-slide stops when the user interacts
-- 🔄 Sliders automatically restart from the beginning
-- 📱 Responsive design for desktop, tablet, and mobile
-- 🔗 Active navigation link based on the current page
+  ### 🏠 Home Page
+  
+  * Modern hero section
+  * Automatic image slider
+  * Previous and next slider controls
+  * Interactive navigation
+  * Featured furniture sections
+  
+  ### 🛍️ Shop Page
+  
+  * Furniture product listings
+  * Product cards
+  * Interactive UI elements
+  
+  ### 🛒 Cart
+  
+  * Cart drawer
+  * Cart overlay
+  * Delete cart items
+  * Open and close cart drawer
+  * Prevent background scrolling when cart drawer is open
+  
+  ### 💳 Checkout
+  
+  * Dedicated checkout page
+  * Structured checkout interface
+  
+  ### 🧭 Navigation
+  
+  * Multi-page navigation
+  * Active page detection using JavaScript
+  * Permanent underline for the current page
+  * Hover underline animation
+  * Smooth navigation animations
+  
+  ### 🏆 Benefits Slider
+  
+  - Displays **4 benefits at a time** on desktop.
+  - Includes multiple furniture-store benefits such as:
+    - High Quality
+    - Warranty Protection
+    - Free Shipping
+    - 24 / 7 Support
+    - Expert Craftsmanship
+    - Eco Friendly
+    - Premium Furniture
+    - Secure Payment
+    - Easy Returns
+  - Automatically slides to the next set of benefits.
+  - Provides **Previous** and **Next** buttons for manual navigation.
+  - Auto-sliding stops when the user interacts with the slider.
+  - After reaching the last item, the slider automatically starts again from the first item.
+  - Smooth CSS transition is used for the sliding animation.
+  - Responsive layout for different screen sizes.
+  
+  ## 🚀 Interactive Features
+  
+  - 🛒 Cart drawer with open/close functionality
+  - 🖼️ Automatic hero image slider
+  - 🏆 Automatic benefits/information slider
+  - ⏮️ Previous and Next slider controls
+  - ⏸️ Auto-slide stops when the user interacts
+  - 🔄 Sliders automatically restart from the beginning
+  - 📱 Responsive design for desktop, tablet, and mobile
+  - 🔗 Active navigation link based on the current page
 
 ---
 
