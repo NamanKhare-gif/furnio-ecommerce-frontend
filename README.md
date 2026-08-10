@@ -125,12 +125,13 @@ Furnio/
 ├── js/
 │   └── script.js
 │
-├── home.html
-├── shop.html
-├── about.html
-├── contact.html
-├── cart.html
-├── checkout.html
+├── html/  
+│   ├── home.html
+│   ├── shop.html
+│   ├── about.html
+│   ├── contact.html
+│   ├── cart.html
+│   └── checkout.html
 │
 └── README.md
 ```
